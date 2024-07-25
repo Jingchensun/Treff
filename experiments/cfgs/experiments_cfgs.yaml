@@ -3,7 +3,7 @@ storage_pth: path/to/storage/space  # it is recommended to change this variable 
 experiment: ml_fewshot
 database: esc50
 model_name: lion_clap
-model_weights_path: ${storage_pth}/jinhua/ALM4FSL/ckpts/${model_name}_weights.pt
+model_weights_path: ${storage_pth}/${model_name}_weights.pt
 
 # [Optaional] DETAILED EXPERIMENT SETTINGS
 fewshot:

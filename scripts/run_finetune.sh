@@ -1,5 +1,5 @@
-WORK_DIR="PATH/TO/DIR"
-STORAGE_DIR="PATH/TO/STORAGE"  # `dataset dir` and `pretrained weight pth` should be under this dir
+WORK_DIR="/home/jingchen/treff/experiments/python"
+STORAGE_DIR="/home/jingchen/treff/storage"  # `dataset dir` and `pretrained weight pth` should be under this dir
 
 ##### Finetune model #####
 MODEL_NAME=ms_clap

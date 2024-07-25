@@ -1,5 +1,5 @@
 WORK_DIR="PATH/TO/DIR"
-STORAGE_DIR="PATH/TO/STORAGE"  # `dataset dir` and `pretrained weight pth` should be under this dir
+STORAGE_DIR="/home/jingchen/treff/storage"  # `dataset dir` and `pretrained weight pth` should be under this dir
 # Set variables (The below are receommended settings)
 # |            	| esc50      	| fsdkaggle18k 	| fsd_fs     	|
 # |------------	|------------	|--------------	|------------	|

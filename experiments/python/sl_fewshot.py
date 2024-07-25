@@ -92,6 +92,7 @@ class SingleLabelFewShot():
     def _adapt_on_batch(self, model: torch.nn.Module, wav_paths: list, targets: list, n_class: int, n_supports: int, n_queries: int, a: float, b: float, train_a: bool, train_epochs: int, train_lr: float) -> Tensor:
         r"""Trainable version of few- & zero-shot classification."""
         # Generate a list of selected labels and corresponding captions
+        # alpha = 1.0
         labelset = list(set(targets))
         caps = [self.prompt + l for l in labelset]
         # CLAP forward

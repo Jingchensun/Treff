@@ -1,5 +1,5 @@
-WORK_DIR="PATH/TO/DIR"
-STORAGE_DIR="PATH/TO/STORAGE"  # `dataset dir` and `pretrained weight pth` should be under this dir
+WORK_DIR="/home/jingchen/treff/experiments/python"
+STORAGE_DIR="/home/jingchen/treff/storage"  # `dataset dir` and `pretrained weight pth` should be under this dir
 # Set variables (The below are receommended settings)
 # |            	| esc50      	| fsdkaggle18k 	| fsd_fs     	|
 # |------------	|------------	|--------------	|------------	|
@@ -13,13 +13,13 @@ STORAGE_DIR="PATH/TO/STORAGE"  # `dataset dir` and `pretrained weight pth` shoul
 EXPERIMENT=sl_fewshot  # [sl_fewshot, ml_fewshot]
 MODEL_NAME=ms_clap
 DATABASE=esc50
-N_TASK=3200
+N_TASK=100
 N_CLASS=12
 N_QUERIES=5
 
 N_SUPPORTS=5
 FINE_TUNE=False
-N_EPOCHS=0
+N_EPOCHS=20
 ADAPTER=match # match
 TRAIN_A=False
 
